@@ -46,6 +46,7 @@ ORDER BY
     salary_year_avg DESC
 LIMIT 10;
 ```
+![TOP_paying_jobs](assets\top_paying_jobs.png)
 
 ### 2. Skills for Top Paying Jobs
 Identifying high salaries is only half the battle; understanding *why* they are paid so well is crucial. To uncover this, I joined the job postings with the skills table to reveal the specific technical requirements for these top-tier roles.
@@ -84,7 +85,7 @@ FROM
     INNER JOIN skills_dim ON skills_dim.skill_id = skills_job.skill_id
     
 ```
-
+![TOP_paying_jobs](assets\top_paying_skills.png)
     
 ### 3. In-Demand Skills for Data Analysts
 To understand the foundational requirements of the industry, I analyzed which skills appear most frequently in job postings. This query helps identify the must-have tools that offer the highest job security.
