@@ -85,7 +85,7 @@ FROM
     INNER JOIN skills_dim ON skills_dim.skill_id = skills_job.skill_id
     
 ```
-![top_paying_jobs](assets/top_paying_jobs.png)
+![top_paying_jobs](assets/top_paying_skills.png)
     
 ### 3. In-Demand Skills for Data Analysts
 To understand the foundational requirements of the industry, I analyzed which skills appear most frequently in job postings. This query helps identify the must-have tools that offer the highest job security.
